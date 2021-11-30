@@ -7,7 +7,7 @@ The basic functions of controlling motors is illustrated in control.py, and the 
 ![alt text](https://github.com/gc625/HumanED/blob/master/diagram.png?raw=true)
 
 
-
+## Installation 
 run to install required packages and debug gui that comes with mjbots
 
 ```
@@ -17,6 +17,7 @@ sudo pip3 install asyncqt importlib_metadata pyelftools
 sudo pip3 install --no-deps moteus moteus_gui
 ```
 
+## Parameters
 
 `Controller.set_position` and `Controller.make_position` have
 arguments which exactly mirror the fields documented in
@@ -56,3 +57,10 @@ qr.torque = mp.F32
 
 c = moteus.Controller(position_resolution=pr, query_resolution=qr)
 ```
+## Videos
+
+https://www.youtube.com/watch?v=aJKB5TGMtuI
+
+https://www.youtube.com/watch?v=HHCBohdrCH8
+
+
