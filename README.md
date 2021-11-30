@@ -1,5 +1,7 @@
 # HumanED
 
+The basic functions of controlling motors is illustrated in control.py, and the parameters that can be modified are listed below. 
+
 
 
 ![alt text](https://github.com/gc625/HumanED/blob/master/diagram.png?raw=true)
