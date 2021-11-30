@@ -8,13 +8,14 @@ The basic functions of controlling motors is illustrated in control.py, and the 
 
 
 
-run 
-`
+run to install required packages and debug gui that comes with mjbots
+
+```
 pip3 install moteus
 sudo apt install python3-pyside2* python3-serial python3-can python3-matplotlib python3-qtconsole
 sudo pip3 install asyncqt importlib_metadata pyelftools
 sudo pip3 install --no-deps moteus moteus_gui
-`
+```
 
 
 `Controller.set_position` and `Controller.make_position` have
